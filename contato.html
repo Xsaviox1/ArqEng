@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArqEng Jr.</title>
+    <link rel="shortcut icon" href="assets/iconearq.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Início da Header -->
+
+    <div class="header-wrapper">
+        <header>
+            <div class="logo">
+                <img src="assets/arqengjr-logo.png" alt = "ArqEng.logo">
+            </div>
+            <div class="header-links">
+                <ul>
+                    <li><a class="topic" href="index.html">Home</a></li>
+                    <li><a class="topic" href="quemsomos.html">Quem Somos</a></li>
+                    <li><a class="topic" href="solucoes.html">Soluções</a></li>
+                    <li><a class="topic" href="projetos.html">Projetos</a></li>
+                </ul>
+            </div>
+            <div class="header-button">
+                <a href="#">Marcar reunião</a> <!-- Passar referência!! --> 
+            </div>
+        </header>
+        <div class="header-line"></div>
+    </div>
+
+    <!-- Fim da Header -->
+    <!-- Inicio do banner info -->
+    <section class="container-info">
+        <div class="info">
+            <h2>Quer saber mais sobre a gente ou precisa de um orçamento?</h2>
+            <h1>Fala com a gente</h1>
+        </div>
+    </section>
+    <!-- Fim do banner info -->
+    <!-- Inicio do formulário -->
+    <section class="container-contato">
+        <div class="contato">
+            <div class="formulario-contato">
+                <div class="group">
+                    <label for="input">Nome da empresa</label>
+                    <input class="input" type="text" placeholder="SwitchCase">
+                    <label for="input">Número</label>
+                    <input class="input" type="tel" placeholder="DDD / Whatsapp">
+                    <label for="input">Email</label>
+                    <input class="input" type="email" placeholder="PortalDeVendas@SwitchCase.com">
+                    <label for="input">Mensagem</label><!--Transformar input em textarea em uma versão superior do código -->   
+                    <input class="input" id="mensagem" type="text" placeholder="Fala pra gente sobre os seus produtos...">
+                </div>
+                <button> 
+                    Enviar
+                </button>
+            </div>
+            <div class="imagem-formulario">
+                <img src="./assets/banner.svg" alt="banner design abstrato ">
+            </div>
+        </div>
+    </section>
+    <!-- Fim do formulário -->
+    
+    <!-- Seção Rodapé -->
+    <div clas="header-footer">
+    <section class="footer">
+        <footer>
+
+            <div class="social-medias">
+                <h3>REDES SOCIAIS</h3>
+                <div class="elements">
+                    <div class="element"><img src="./assets/whatsapp.webp" alt="Contato Whatsapp"></div>
+                    <div class="element"><img src="./assets/instagram.webp" alt="Contato Instagram"></div>
+                    <div class="element"><img src="./assets/email.webp" alt="Contato Email"></div>
+                    <div class="element"><img src="./assets/linkedin.webp" alt="Contato Linkedin"></div>
+                </div>
+            </div>
+            <div class="logo-footer"><img src="./assets/arqengjr-logo.png" alt="Logo da empresa"></div>
+            <div class="adress">
+                <h3>ONDE NÓS ESTAMOS</h3>
+                <div class="text-adress">
+                    <a href="https://www.google.com/maps/place/FEJEPE+%7C+Federação+das+Empresas+Juniores+do+Estado+de+Pernambuco/@-8.0532181,-34.9481977,15z/data=!4m2!3m1!1s0x0:0xf5c94295059cbd26?sa=X&ved=2ahUKEwig07KqwqGEAxUbr5UCHU0vB68Q_BJ6BAhDEAA">
+                        Prédio da DINE - Av. Jorn. Aníbal Fernandes, s/n Sala FEJEPE - Cidade Universitária, Recife - PE,
+                        50670-901
+                    </a>
+                    <span>Vendas@Arqenj.com</span>
+                </div>
+            </div>
+        </footer>
+    </section>
+    </div>
+    <!-- Fim do rodapé -->
+</body>
+</html>

@@ -1,0 +1,132 @@
+.container-info{
+  background-color: var(--color-dark-red);
+  height: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7em;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: var(--font-titulo);
+}
+
+.info h1{
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.info h2{
+  font-weight:500;
+  font-size: 36px;
+}
+
+.formulario-contato{
+  display: flex;
+  flex-direction: column;
+  font-family:var(--font-titulo);
+}
+.group {
+    display: flex;
+    line-height: 30px;
+    position: relative;
+    
+    /*max-width: 200px;*/
+    flex-direction: column;
+    height: 35em;
+    justify-content: center;
+    width: 50vw;
+  }
+  
+  .input {
+    padding: .7em 0 .7em 0;
+    width: 18rem;
+    height: 45px;
+    line-height: 30px;
+    margin: .5rem 0;
+    padding-left: 1rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    transition: .5s ease;
+  }
+  .input:focus, input:hover {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px var(--color-dark-red);
+  }
+  #mensagem{
+    padding-bottom: 9rem;/*não tem quebra de linha pois o input esta com padding logo ele teoricamente continuara em cima eternamente*/
+    flex-direction: row
+  }
+  .formulario-contato button {
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid var(--color-dark-red);
+  transition: color .5s;
+  z-index: 1;
+  font-size: 17px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: var(--color-dark-red);
+  background-color: var(--color-white);
+  margin-top: 5px;
+ }
+ 
+ .formulario-contato button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color-dark-red);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+ }
+ 
+ .formulario-contato button:hover {
+  color: #fff;
+ }
+ 
+ .formulario-contato button:before {
+  top: 100%;
+  left: 100%;
+  transition: all .7s;
+ }
+ 
+ .formulario-contato button:hover:before {
+  top: -30px;
+  left: -30px;
+ }
+ 
+ .formulario-contato button:active:before {
+  background: var(--color-orange);
+  transition: background 0s;
+ }
+
+ label{
+  display: flex;
+  font-weight: bold;
+ }
+
+ .contato{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 25em;
+ }
+
+ .container-contato{
+  background-color: #FFDBC2;
+  padding: 3em 0;
+  border-bottom: solid 1px var(--color-orange);
+ }
